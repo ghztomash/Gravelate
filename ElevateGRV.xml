@@ -139,6 +139,22 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="mtb_s_routes" />
 		<cat id="c_s_routes" />
 	</layer>
+	<layer id="elv-grv_camping" enabled="false">
+		<name lang="de" value="[R] Betonte camping" />
+		<name lang="en" value="[R] Emphasized camping" />
+		<name lang="es" value="[R] Camping resaltadas" />
+		<name lang="fr" value="[R] Camping soulignés" />
+		<name lang="it" value="[R] Camping accentuati" />
+		<cat id="grv_s_camping" />
+	</layer>
+	<layer id="elv-grv_mtb" enabled="false">
+		<name lang="de" value="[R] Betonte camping" />
+		<name lang="en" value="[R] Gravel MTB routes" />
+		<name lang="es" value="[R] Camping resaltadas" />
+		<name lang="fr" value="[R] Camping soulignés" />
+		<name lang="it" value="[R] Camping accentuati" />
+		<cat id="mtb" />
+	</layer>
 
 	<!-- overlays base -->
 	<layer id="elv-background-h" enabled="true">
@@ -763,7 +779,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<overlay id="elv-borders-h" />
 		<overlay id="elv-background-h" />
 	</layer>
-	<layer id="elv-city" visible="true">
+	<layer id="elv-city" visible="false">
 		<name lang="de" value="Stadt" />
 		<name lang="en" value="City" />
 		<name lang="es" value="Ciudad" />
@@ -867,6 +883,47 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<overlay id="elv-buildings-m" />
 		<overlay id="elv-borders-m" />
 		<overlay id="elv-background-m" />
+	</layer>
+	<layer id="elv-grv" visible="true">
+		<name lang="de" value="Gravel" />
+		<name lang="en" value="Gravel" />
+		<name lang="es" value="Gravel" />
+		<name lang="fr" value="Gravel" />
+		<name lang="it" value="Gravel" />
+		<cat id="bike" />
+		<cat id="bike_only" />
+		<cat id="nohike" />
+		<cat id="nocity" />
+		<cat id="contour" />
+		<cat id="flat" />
+		<cat id="mountains" />
+		<cat id="toll" />
+		<!-- <cat id="mtb" /> -->
+		<cat id="smallways" />
+		<overlay id="elv-c_routes" />
+		<overlay id="elv-c_s_routes" />
+		<overlay id="elv-mtbs_tracks" />
+		<overlay id="elv-mtb_routes" />
+		<overlay id="elv-paved_emph-b" />
+		<overlay id="elv-mtb_sac_T1" />
+		<overlay id="elv-settlements-m" />
+		<overlay id="elv-landscapefeat-m" />
+		<overlay id="elv-amenities-m" />
+		<overlay id="elv-barriers-m" />
+		<overlay id="elv-sports-m" />
+		<overlay id="elv-emergency-m" />
+		<overlay id="elv-accommodation-m" />
+		<overlay id="elv-restaurants-m" />
+		<overlay id="elv-shops-m" />
+		<overlay id="elv-tourism-m" />
+		<overlay id="elv-pubtrans-m" />
+		<overlay id="elv-pt_network" />
+		<overlay id="elv-car-m" />
+		<overlay id="elv-buildings-m" />
+		<overlay id="elv-borders-m" />
+		<overlay id="elv-background-m" />
+		<overlay id="elv-grv_camping" />
+		<overlay id="elv-grv_mtb" />
 	</layer>
 </stylemenu>
 
