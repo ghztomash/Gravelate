@@ -155,6 +155,19 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[R] Camping accentuati" />
 		<cat id="mtb" />
 	</layer>
+	<layer id="elv-grv_highlight" enabled="true">
+		<name lang="de" value="[R] Betonte gravel" />
+		<name lang="en" value="[R] Highlight gravel" />
+		<name lang="es" value="[R] Gravel resaltadas" />
+		<name lang="fr" value="[R] Gravel soulignés" />
+		<name lang="it" value="[R] Gravel accentuati" />
+		<cat id="grv_highlight" />
+	</layer>
+
+	<layer id="elv-grv_mark" enabled="true">
+		<name lang="en" value="[R] Mark gravel" />
+		<cat id="grv_mark" />
+	</layer>
 
 	<!-- overlays base -->
 	<layer id="elv-background-h" enabled="true">
@@ -904,6 +917,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<overlay id="elv-c_s_routes" />
 		<overlay id="elv-mtbs_tracks" />
 		<overlay id="elv-mtb_routes" />
+		<overlay id="elv-road_surfaces-m" />
 		<overlay id="elv-paved_emph-b" />
 		<overlay id="elv-mtb_sac_T1" />
 		<overlay id="elv-settlements-m" />
@@ -924,6 +938,8 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<overlay id="elv-background-m" />
 		<overlay id="elv-grv_camping" />
 		<overlay id="elv-grv_mtb" />
+		<overlay id="elv-grv_highlight" />
+		<overlay id="elv-grv_mark" />
 	</layer>
 </stylemenu>
 
@@ -2541,6 +2557,73 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<line stroke="#5598F5FF" stroke-width="1.2" />
 		<area fill="#5598F5FF" />
 	</rule>
+
+<!-- Gravel Highlihts -->
+	<rule cat="grv_highlight" e="any" k="*" v="*">
+		<rule e="any" k="surface" v="gravel|compacted|fine_gravel" zoom-max="20" zoom-min="8">
+			<line stroke="#A0ff4A50" stroke-width="2.0" stroke-linecap="round" />
+		</rule>
+		<rule e="way" k="tracktype" v="grade2|grade3">
+			<line stroke="#Afff4A50" stroke-width="1.2" stroke-dasharray="10,10" stroke-linecap="round" />
+		</rule>
+	</rule>
+
+	<rule e="way" k="surface" v="sand|mud|dirt|earth|ground">
+		<line stroke="#00FFFF" stroke-width="10.0" stroke-linecap="butt" />
+	</rule>
+
+	<rule cat="grv_mark" e="any" k="*" v="*" zoom-max="20" zoom-min="8">
+		<rule e="any" k="highway" v="track|path|footway|cycleway">
+			<!--
+			<rule e="way" k="tracktype" v="grade2|grade3|grade4">
+				<line stroke="#0000FF" stroke-width="2.0" stroke-dasharray="10,5" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="smoothness" v="bad">
+				<line stroke="#f0a0FF" stroke-width="10.0" stroke-dasharray="5,2" stroke-linecap="butt" />
+			</rule>
+			TODO: 
+			[ ] better gravel rendering
+			[v] remove footpath permissions
+			[x] pizza highlight -> not working export as POI
+			[ ] camping highlight
+			-->
+			<!-- <rule e="way" k="surface" v="gravel">
+				<line src="file:ele-res/p_pedestrian.svg" symbol-height="20" stroke-width="5.0" />
+				<line stroke="#980D0D" stroke-width="4.0" stroke-dasharray="20,10,10,20" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="surface" v="compacted">
+				<line src="file:ele-res/p_pedestrian.svg" symbol-height="20" stroke-width="5.0" />
+				<line stroke="#757671" stroke-width="4.0" stroke-dasharray="5,5,10,10" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="surface" v="fine_gravel">
+				<line stroke="#42433E" stroke-width="2.0" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="surface" v="shells|pebbelstone|sett">
+				<line stroke="#00FF00" stroke-width="5.0" stroke-linecap="butt" />
+			</rule> -->
+		</rule>
+
+		<rule e="any" k="highway" v="footway">
+			<rule e="way" k="surface" v="gravel|compacted|fine_gravel">
+				<line stroke="#444A50" stroke-width="1.0" stroke-dasharray="5,10" stroke-linecap="butt" />
+			</rule>
+		</rule>
+		<rule e="any" k="highway" v="path">
+			<rule e="way" k="surface" v="gravel|compacted|fine_gravel">
+				<line stroke="#444A50" stroke-width="1.5" stroke-dasharray="10,15" stroke-linecap="butt" />
+			</rule>
+		</rule>
+		<rule e="any" k="highway" v="track|cycleway">
+			<rule e="way" k="surface" v="gravel|compacted|fine_gravel">
+				<line stroke="#444A50" stroke-width="2.5" stroke-dasharray="15,15" stroke-linecap="butt" />
+			</rule>
+		</rule>
+
+	</rule>
+
+		<!-- <rule e="way" k="tracktype" v="grade2|grade3|grade4|grade5">
+			<line stroke="#990000" stroke-width="2" stroke-dasharray="5,20" stroke-linecap="butt" />
+		</rule> -->
 
 <!-- cycling-routes zoom 14+ -->
 	<rule e="way" k="tunnel" v="~|no" closed="no" zoom-min="14">
@@ -4240,9 +4323,9 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 						<rule e="any" k="bicycle" v="bic_private">
 							<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.5" />
 						</rule>
-						<rule e="any" k="bicycle" v="bic_no|bic_forestry">
+						<!-- <rule e="any" k="bicycle" v="bic_no|bic_forestry">
 							<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.5" />
-						</rule>
+						</rule> -->
 						<rule e="any" k="bicycle" v="~">
 							<rule e="any" k="access" v="destination">
 								<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.5" />
