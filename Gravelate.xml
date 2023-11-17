@@ -2565,36 +2565,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 	</rule>
 
 	<rule cat="grv_mark" e="any" k="*" v="*" zoom-max="20" zoom-min="10">
-		<rule e="any" k="highway" v="track|path|footway|cycleway">
-			<!--
-			<rule e="way" k="tracktype" v="grade2|grade3|grade4">
-				<line stroke="#0000FF" stroke-width="2.0" stroke-dasharray="10,5" stroke-linecap="butt" />
-			</rule>
-			<rule e="way" k="smoothness" v="bad">
-				<line stroke="#f0a0FF" stroke-width="10.0" stroke-dasharray="5,2" stroke-linecap="butt" />
-			</rule>
-			TODO: 
-			[ ] better gravel rendering
-			[v] remove footpath permissions
-			[x] pizza highlight -> not working export as POI
-			[ ] camping highlight
-			-->
-			<!-- <rule e="way" k="surface" v="gravel">
-				<line src="file:ele-res/p_pedestrian.svg" symbol-height="20" stroke-width="5.0" />
-				<line stroke="#980D0D" stroke-width="4.0" stroke-dasharray="20,10,10,20" stroke-linecap="butt" />
-			</rule>
-			<rule e="way" k="surface" v="compacted">
-				<line src="file:ele-res/p_pedestrian.svg" symbol-height="20" stroke-width="5.0" />
-				<line stroke="#757671" stroke-width="4.0" stroke-dasharray="5,5,10,10" stroke-linecap="butt" />
-			</rule>
-			<rule e="way" k="surface" v="fine_gravel">
-				<line stroke="#42433E" stroke-width="2.0" stroke-linecap="butt" />
-			</rule>
-			<rule e="way" k="surface" v="shells|pebbelstone|sett">
-				<line stroke="#00FF00" stroke-width="5.0" stroke-linecap="butt" />
-			</rule> -->
-		</rule>
-
 		<rule e="any" k="highway" v="footway|bridleway|pedestrian">
 			<rule e="way" k="surface" v="gravel|compacted|fine_gravel">
 				<line stroke="#f0444A50" stroke-width="1.5" stroke-dasharray="5,10" stroke-linecap="butt" />
@@ -2614,10 +2584,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 			</rule>
 		</rule>
 	</rule>
-
-		<!-- <rule e="way" k="tracktype" v="grade2|grade3|grade4|grade5">
-			<line stroke="#990000" stroke-width="2" stroke-dasharray="5,20" stroke-linecap="butt" />
-		</rule> -->
 
 <!-- cycling-routes zoom 14+ -->
 	<rule e="way" k="tunnel" v="~|no" closed="no" zoom-min="14">
