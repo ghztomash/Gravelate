@@ -148,12 +148,12 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="mtb" />
 	</layer>
 	<layer id="elv-grv_trackgrade" enabled="true">
-		<name lang="en" value="[R] Track Grade" />
+		<name lang="en" value="[R] Mark Track Grades" />
 		<cat id="grv_trackgrade" />
 	</layer>
 
 	<layer id="elv-grv_mark" enabled="true">
-		<name lang="en" value="[R] Mark gravel" />
+		<name lang="en" value="[R] Emphasized gravel" />
 		<cat id="grv_mark" />
 	</layer>
 
@@ -1550,7 +1550,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		</rule>
 	</rule>
 
-	<!-- underground waterways -->
+<!-- underground waterways -->
 	<rule cat="background" e="way" k="tunnel" v="yes" zoom-min="14">
 		<rule e="way" k="waterway" v="ditch|stream">
 			<line stroke="#90FFFFFF" stroke-width="0.4" stroke-dasharray="20,2" stroke-linecap="butt" />
@@ -2561,7 +2561,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<line stroke="#FF0050" stroke-width="2.0" stroke-linecap="butt" />
 	</rule>
 
-	<rule cat="grv_mark" e="any" k="*" v="*" zoom-max="20" zoom-min="8">
+	<rule cat="grv_mark" e="any" k="*" v="*" zoom-max="20" zoom-min="10">
 		<rule e="any" k="highway" v="track|path|footway|cycleway">
 			<!--
 			<rule e="way" k="tracktype" v="grade2|grade3|grade4">
