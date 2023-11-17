@@ -139,14 +139,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="mtb_s_routes" />
 		<cat id="c_s_routes" />
 	</layer>
-	<layer id="elv-grv_camping" enabled="false">
-		<name lang="de" value="[R] Betonte camping" />
-		<name lang="en" value="[R] Emphasized camping" />
-		<name lang="es" value="[R] Camping resaltadas" />
-		<name lang="fr" value="[R] Camping soulignés" />
-		<name lang="it" value="[R] Camping accentuati" />
-		<cat id="grv_s_camping" />
-	</layer>
 	<layer id="elv-grv_mtb" enabled="false">
 		<name lang="de" value="[R] Betonte camping" />
 		<name lang="en" value="[R] MTB mode" />
@@ -926,13 +918,11 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<overlay id="elv-restaurants-m" />
 		<overlay id="elv-shops-m" />
 		<overlay id="elv-tourism-m" />
-		<overlay id="elv-pubtrans-m" />
 		<overlay id="elv-pt_network" />
 		<overlay id="elv-car-m" />
 		<overlay id="elv-buildings-m" />
 		<overlay id="elv-borders-m" />
 		<overlay id="elv-background-m" />
-		<overlay id="elv-grv_camping" />
 		<overlay id="elv-grv_mtb" />
 		<overlay id="elv-grv_trackgrade" />
 		<overlay id="elv-grv_mark" />
