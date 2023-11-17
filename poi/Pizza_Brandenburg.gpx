@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="overpass-turbo"><metadata><desc>Filtered OSM data converted to GPX by overpass turbo</desc><copyright author="The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."/><time>2023-11-15T21:49:01Z</time></metadata><wpt lat="51.8529662" lon="13.715666"><name>Sonne</name><desc>addr:city=Luckau
+addr:country=DE
+addr:housenumber=1
+addr:postcode=15926
+addr:street=Am Markt
+amenity=restaurant
+cuisine=pizza
+name=Sonne</desc><link href="http://osm.org/browse/node/301219619"/></wpt><wpt lat="52.3894107" lon="13.0763629"><name>Smiley's Pizza Profis</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=21
+addr:postcode=14473
+addr:street=Friedrich-Engels-Straße
+amenity=fast_food
+cuisine=pizza
+description=Pizza Lieferservice
+name=Smiley's Pizza Profis
+opening_hours=Mo-Su 11:00-23:00
+phone=+4933120097100
+website=https://www.smileys.de/bestellen/Potsdam
+wheelchair=no</desc><link href="http://osm.org/browse/node/312299458"/></wpt><wpt lat="51.7279303" lon="14.3307689"><name>Call a Pizza</name><desc>addr:city=Cottbus
+addr:housenumber=11
+addr:postcode=03050
+addr:street=Heinrich-Mann-Straße
+amenity=fast_food
+brand=Call a Pizza
+brand:wikidata=Q1027107
+cuisine=pizza
+food=yes
+name=Call a Pizza
+opening_hours=Mo-Su,PH 11:00-22:00
+phone=+49 355 49440144
+takeaway=yes
+website=https://www.call-a-pizza.de/cottbus_sachsendorf/</desc><link href="http://osm.org/browse/node/313372349"/></wpt><wpt lat="51.7537043" lon="14.3305111"><name>node/313545648</name><desc>brand=Telepizza
+brand:wikidata=Q2699863
+brand:wikipedia=en:Telepizza
+check_date=2023-02-15
+cuisine=pizza
+disused:amenity=fast_food
+disused:name=Telepizza
+end_date=2020 Sep 13
+takeaway=yes
+website=https://www.telepizza.de/
+wheelchair=no</desc><link href="http://osm.org/browse/node/313545648"/></wpt><wpt lat="52.3960823" lon="13.0899028"><name>Pizza Max</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=63
+addr:postcode=14482
+addr:street=Alt Nowawes
+addr:suburb=Babelsberg
+amenity=fast_food
+check_date:opening_hours=2022-05-11
+cuisine=pizza
+indoor_seating=no
+name=Pizza Max
+opening_hours=11:00-22:30
+outdoor_seating=no
+takeaway=only
+wheelchair=limited</desc><link href="http://osm.org/browse/node/316964004"/></wpt><wpt lat="52.6533121" lon="13.5421309"><name>Pizza Dorado</name><desc>addr:city=Panketal
+addr:country=DE
+addr:housenumber=26
+addr:postcode=16341
+addr:street=Alt Zepernick
+addr:suburb=Zepernick
+amenity=restaurant
+cuisine=pizza
+name=Pizza Dorado
+wheelchair=limited</desc><link href="http://osm.org/browse/node/401843849"/></wpt><wpt lat="52.3641588" lon="12.8311604"><name>Pizza Service Sandhu</name><desc>amenity=fast_food
+cuisine=pizza
+name=Pizza Service Sandhu</desc><link href="http://osm.org/browse/node/417283678"/></wpt><wpt lat="52.2967625" lon="13.6300681"><name>Pizza-Europa Express</name><desc>addr:city=Königs Wusterhausen
+addr:housenumber=16
+addr:postcode=15711
+addr:street=Bahnhofstraße
+amenity=fast_food
+cuisine=pizza
+drive_through:covid19=no
+indoor_seating=yes
+name=Pizza-Europa Express
+opening_hours=Mo-Fr 11:00-22:00; Su 12:00-22:00
+outdoor_seating=yes
+smoking=outside
+takeaway:covid19=yes
+wheelchair=limited</desc><link href="http://osm.org/browse/node/428541002"/></wpt><wpt lat="52.3723558" lon="13.6149869"><name>Pizza-Europa Express</name><desc>addr:city=Eichwalde
+addr:postcode=15732
+addr:street=Bahnhofstraße
+amenity=fast_food
+cuisine=pizza
+email=info@pizza-eichwalde.de
+name=Pizza-Europa Express
+opening_hours=Mo-Fr 11:00-21:30; Su 12:00-21:30
+phone=+49 30 67823898
+takeaway=yes
+website=http://www.pizza-eichwalde.de/
+wheelchair=yes</desc><link href="http://osm.org/browse/node/434558344"/></wpt><wpt lat="52.405824" lon="13.234512"><name>Tele Pizza</name><desc>addr:city=Kleinmachnow
+addr:country=DE
+addr:housenumber=121
+addr:postcode=14532
+addr:street=Zehlendorfer Damm
+amenity=fast_food
+cuisine=pizza
+name=Tele Pizza
+note=Nicht zu verwechseln mit der spanischen Franchise "Telepizza"
+takeaway=yes
+wheelchair=limited</desc><link href="http://osm.org/browse/node/442369659"/></wpt><wpt lat="51.7240323" lon="13.3831233"><name>Ratskeller</name><desc>addr:city=Schlieben
+addr:housenumber=5
+addr:street=Markt
+amenity=restaurant
+cuisine=pizza
+name=Ratskeller
+phone=+49 35361 899270
+website=http://www.josan-pizza.de</desc><link href="http://osm.org/browse/node/475874161"/></wpt><wpt lat="52.6874538" lon="13.289736"><name>Bella Donna</name><desc>addr:city=Birkenwerder
+addr:housenumber=34
+addr:postcode=16547
+addr:street=Bergfelder Straße
+amenity=fast_food
+cuisine=pizza
+drive_through=no
+indoor_seating=yes
+name=Bella Donna
+opening_hours=Mo-Su 11:30-22:00
+outdoor_seating=yes
+phone=+49 3303 589 8000
+wheelchair=limited</desc><link href="http://osm.org/browse/node/600201620"/></wpt><wpt lat="52.4071415" lon="12.5660453"><name>Pizzahaus Steinofenpizza</name><desc>addr:city=Brandenburg an der Havel
+addr:country=DE
+addr:housenumber=14
+addr:postcode=14776
+addr:street=Sankt-Annen-Straße
+amenity=fast_food
+contact:phone=+49 3381 521 935
+cuisine=pizza
+name=Pizzahaus Steinofenpizza
+opening_hours=Mo-Sa 11:00-13:45,17:00-21:45; Su, PH 17:00-21:45
+website=https://www.steinofenpizza-brandenburg.de/
+wheelchair=limited</desc><link href="http://osm.org/browse/node/614824444"/></wpt><wpt lat="52.0881483" lon="12.8496988"><name>Zum Highlander</name><desc>addr:city=Treuenbrietzen
+addr:country=DE
+addr:housenumber=152
+addr:postcode=14929
+addr:street=Leipziger Straße
+amenity=fast_food
+cuisine=pizza
+name=Zum Highlander
+opening_hours=Tu-Fr 11:00-14:00, 17:00-23:00; Sa-Mo 17:00-23:00
+phone=+49 33748 12774
+toilets:wheelchair=no
+wheelchair=yes</desc><link href="http://osm.org/browse/node/650356904"/></wpt><wpt lat="52.3791171" lon="12.9411448"><name>Pizzeria L'isola della Pizza</name><desc>addr:city=Werder (Havel)
+addr:country=DE
+addr:housenumber=24
+addr:postcode=14542
+addr:street=Am Markt
+amenity=restaurant
+contact:phone=+49 3327 574734
+cuisine=pizza
+name=Pizzeria L'isola della Pizza
+wheelchair=no</desc><link href="http://osm.org/browse/node/709294647"/></wpt><wpt lat="52.3165991" lon="13.6333682"><name>Call-A-Pizza</name><desc>addr:city=Wildau
+addr:housenumber=3
+addr:postcode=15745
+addr:street=Richard-Sorge-Straße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+drive_through=no
+name=Call-A-Pizza
+opening_hours=11:00-22:00
+phone=+49 3375 507727
+takeaway=no
+website=https://www.call-a-pizza.de/call-a-pizza-wildau
+wheelchair=no</desc><link href="http://osm.org/browse/node/774545084"/></wpt><wpt lat="52.3189006" lon="13.6342963"><name>Pizza Express</name><desc>addr:city=Wildau
+addr:housenumber=1
+addr:postcode=15745
+addr:street=Bahnhofsplatz
+amenity=restaurant
+check_date:opening_hours=2023-10-21
+cuisine=pizza
+delivery=no
+name=Pizza Express
+opening_hours=Mo-Fr 11:00-21:00; Su 12:00-21:00
+phone=+49 3375 5244550
+takeaway=yes
+wheelchair=no</desc><link href="http://osm.org/browse/node/775293873"/></wpt><wpt lat="52.3437925" lon="13.4353009"><name>Call a Pizza</name><desc>amenity=fast_food
+brand=Call a Pizza
+brand:wikidata=Q1027107
+cuisine=pizza
+delivery=yes
+email=lars.schroeder@call-a-pizza.de
+name=Call a Pizza
+opening_hours=Mo-Su, PH 11:00-22:00
+operator=Lars Schröder
+phone=+4933794462800
+takeaway=yes
+website=https://www.call-a-pizza.de/blankenfelde_mahlow/</desc><link href="http://osm.org/browse/node/946947081"/></wpt><wpt lat="53.0548714" lon="14.2864852"><name>Doula</name><desc>addr:city=Schwedt/Oder
+addr:country=DE
+addr:housenumber=40
+addr:postcode=16303
+addr:street=Berliner Straße
+amenity=restaurant
+cuisine=pizza
+name=Doula
+website=https://www.pizza-doula-schwedt.de/</desc><link href="http://osm.org/browse/node/981212554"/></wpt><wpt lat="52.5043283" lon="14.1382051"><name>Larosa</name><desc>addr:city=Müncheberg
+addr:country=DE
+addr:housenumber=2a
+addr:postcode=15374
+addr:street=Französische Straße
+amenity=restaurant
+contact:phone=+49 33432 739343
+contact:website=http://www.larosa-muencheberg.de/
+cuisine=pizza
+name=Larosa
+opening_hours=Tu-Su 17:00-22:00
+wheelchair=no</desc><link href="http://osm.org/browse/node/986024373"/></wpt><wpt lat="52.4723107" lon="13.1100593"><name>node/1038558187</name><desc>amenity=restaurant
+cuisine=pizza</desc><link href="http://osm.org/browse/node/1038558187"/></wpt><wpt lat="52.3093009" lon="13.247593"><name>World of Pizza</name><desc>amenity=fast_food
+cuisine=pizza
+name=World of Pizza
+smoking=no</desc><link href="http://osm.org/browse/node/1167180113"/></wpt><wpt lat="52.6718053" lon="13.2805822"><name>Pizza&amp;Pasta</name><desc>addr:city=Hohen Neuendorf
+addr:housenumber=1a
+addr:postcode=16540
+addr:street=Oranienburger Straße
+amenity=restaurant
+check_date=2022-08-16
+contact:facebook=https://www.facebook.com/PizzaPasta-110840243890438
+cuisine=pizza
+name=Pizza&amp;Pasta
+opening_hours=Mo-Th 11:00-20:30,Fr-Sa 11:00-22:00
+phone=+49 3303 815913
+wheelchair=yes</desc><link href="http://osm.org/browse/node/1181086493"/></wpt><wpt lat="52.3086422" lon="13.242271"><name>Call a Pizza Ludwigsfelde</name><desc>addr:city=Ludwigsfelde
+addr:country=DE
+addr:housenumber=17
+addr:postcode=14974
+addr:street=Lise-Meitner-Straße
+amenity=fast_food
+contact:phone=+49 3378 209767
+contact:website=https://www.call-a-pizza.de/ludwigsfelde/
+cuisine=pizza
+name=Call a Pizza Ludwigsfelde
+opening_hours=11:00-23:00</desc><link href="http://osm.org/browse/node/1199400170"/></wpt><wpt lat="52.1440528" lon="14.6287259"><name>Pizza Paradieso</name><desc>amenity=restaurant
+cuisine=pizza
+name=Pizza Paradieso
+phone=+49 3364 410522
+website=http://www.pizza-paradieso.de/ehst.html
+wheelchair=limited</desc><link href="http://osm.org/browse/node/1257442322"/></wpt><wpt lat="52.0495008" lon="13.5044169"><name>Belvedere</name><desc>addr:city=Baruth/Mark
+addr:housenumber=27
+addr:postcode=15837
+addr:street=Hauptstraße
+amenity=restaurant
+cuisine=pizza
+image=http://www.berlin-platz.de/uploads/Bilder/2011-05-16/P1000777.JPG
+name=Belvedere
+opening_hours=We-Fr 16:00-22:00; Sa-Su 12:00-22:00
+phone=+49(0)33704 61739
+takeaway=yes
+website=https://belvedere-baruth.de</desc><link href="http://osm.org/browse/node/1289294336"/></wpt><wpt lat="52.3972946" lon="13.5339067"><name>Fero´s Pizzeria</name><desc>addr:city=Schönefeld
+addr:country=DE
+addr:housenumber=7
+addr:postcode=12529
+addr:street=Schwalbenweg
+addr:suburb=Altglienicke
+amenity=fast_food
+cuisine=pizza
+currency:BCH=yes
+name=Fero´s Pizzeria
+phone=+49 30 67069116
+website=https://www.lieferando.de/speisekarte/feros-pizzeria
+wheelchair=limited
+wheelchair:description=Laden barrierefrei, kein WC</desc><link href="http://osm.org/browse/node/1421243415"/></wpt><wpt lat="52.412243" lon="12.5431582"><name>Ventuno</name><desc>addr:city=Brandenburg an der Havel
+addr:country=DE
+addr:housenumber=2
+addr:postcode=14770
+addr:street=Harlungerstraße
+amenity=fast_food
+contact:email=info@pizzeriaventuno.de
+contact:phone=+49 3381 2183881
+contact:website=https://pizzeriaventuno.de/
+cuisine=pizza
+delivery=yes
+name=Ventuno
+opening_hours=Mo-Su 10:00-23:00
+wheelchair=no</desc><link href="http://osm.org/browse/node/1429432807"/></wpt><wpt lat="52.3714484" lon="13.1343597"><name>Ciao Bella</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=1-10
+addr:postcode=14480
+addr:street=Stern-Center
+addr:suburb=Drewitz
+check_date=2022-11-12
+contact:phone=+49 331 600 49880
+cuisine=pizza
+disused:amenity=fast_food
+name=Ciao Bella
+opening_hours=Mo-Th 10:00-20:00; Fr 10:00-21:00; Sa 09:00-21:00; PH,Su off
+payment:cash=yes
+takeaway=yes
+wheelchair=yes</desc><link href="http://osm.org/browse/node/1435426081"/></wpt><wpt lat="52.4072613" lon="13.0585782"><name>World of Pizza</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=57
+addr:postcode=14469
+addr:street=Friedrich-Ebert-Straße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=World of Pizza
+phone=+493312700800
+smoking=outside
+takeaway=yes
+website=https://www.world-of-pizza.de/
+wheelchair=yes</desc><link href="http://osm.org/browse/node/1477514250"/></wpt><wpt lat="52.4011084" lon="13.269903"><name>World of Pizza</name><desc>amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=World of Pizza
+takeaway=yes
+wheelchair=no</desc><link href="http://osm.org/browse/node/1492173299"/></wpt><wpt lat="51.7338663" lon="14.334838"><name>World of Pizza</name><desc>amenity=fast_food
+cuisine=pizza
+name=World of Pizza
+opening_hours=Mo-Su 11:00-23:00
+phone=+49 355 790303
+website=https://worldofpizza-cottbus.de</desc><link href="http://osm.org/browse/node/1527002453"/></wpt><wpt lat="52.476336" lon="13.699867"><name>Call a Pizza</name><desc>amenity=fast_food
+cuisine=pizza
+name=Call a Pizza
+opening_hours=Mo-Su 11:00-22:00
+phone=+49-30-64387780
+wheelchair=yes</desc><link href="http://osm.org/browse/node/1557276154"/></wpt><wpt lat="52.3768314" lon="12.936124"><name>World of Pizza</name><desc>addr:city=Werder (Havel)
+addr:country=DE
+addr:housenumber=13
+addr:postcode=14542
+addr:street=Unter den Linden
+amenity=fast_food
+contact:email=kundenservice@world-of-pizza.de
+contact:facebook=worldofpizza.de
+contact:instagram=worldofpizza.de
+contact:phone=+49 3327 668 181
+contact:website=https://www.world-of-pizza.de/werder/
+cuisine=pizza
+door=hinged
+entrance=main
+level=0
+name=World of Pizza
+opening_hours=Mo-Su 11:00-21:00
+operator=WOP Werder Betriebs GmbH
+operator:type=business
+payment:apple_pay=yes
+payment:cash=yes
+payment:contactless=yes
+payment:girocard=yes
+payment:google_pay=yes
+payment:maestro=yes
+payment:mastercard=yes
+payment:meal_voucher=yes
+payment:paypal=yes
+payment:visa=yes
+ref:vatin=DE333513580
+step_count=0
+wheelchair=limited</desc><link href="http://osm.org/browse/node/1636833410"/></wpt><wpt lat="52.8338592" lon="13.8129982"><name>Pizza Point</name><desc>addr:city=Eberswalde
+addr:housenumber=14
+addr:postcode=16225
+addr:street=Eisenbahnstraße
+amenity=restaurant
+check_date:opening_hours=2022-08-14
+cuisine=pizza
+name=Pizza Point
+opening_hours=Mo-Su,PH 11:30-23:00
+website=https://pizza.de/pizza-point-eberswalde-eisenbahnstr-14
+wheelchair=no</desc><link href="http://osm.org/browse/node/1663732937"/></wpt><wpt lat="52.9210857" lon="14.0278064"><name>Pizza Point</name><desc>amenity=restaurant
+cuisine=pizza
+name=Pizza Point
+opening_hours=Tu-Fr 15:00-22:00; Sa,Su 12:00-22:00</desc><link href="http://osm.org/browse/node/1674097845"/></wpt><wpt lat="52.3608494" lon="14.0604899"><name>Pizzeria Pizza Pazza</name><desc>addr:city=Fürstenwalde/Spree
+addr:country=DE
+addr:postcode=15517
+addr:street=Doktor-Wilhelm-Külz-Straße
+amenity=fast_food
+cuisine=pizza
+indoor_seating=yes
+name=Pizzeria Pizza Pazza
+opening_hours=PH,Fr-We 16:00-24:00
+outdoor_seating=yes
+smoking=outside
+wheelchair=no</desc><link href="http://osm.org/browse/node/1699886177"/></wpt><wpt lat="52.9977559" lon="11.7591234"><name>Deepa Food House</name><desc>amenity=restaurant
+cuisine=pizza
+name=Deepa Food House
+wheelchair=limited</desc><link href="http://osm.org/browse/node/1889178935"/></wpt><wpt lat="52.366395" lon="13.1010463"><name>Call a Pizza</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=39
+addr:postcode=14478
+addr:street=Drewitzer Straße
+addr:suburb=Waldstadt
+amenity=fast_food
+brand=Call a Pizza
+brand:wikidata=Q1027107
+contact:email=petra.haase@call-a-pizza.de
+contact:fax=+49 331 888 7811
+contact:phone=+49 331 888 7899
+contact:website=https://www.call-a-pizza.de/potsdam_waldstadt/
+cuisine=pizza
+delivery=yes
+name=Call a Pizza
+opening_hours=Mo-Su,PH 11:00-23:00
+operator=Petra Haase
+takeaway=yes
+wheelchair=yes</desc><link href="http://osm.org/browse/node/1901127945"/></wpt><wpt lat="52.3775359" lon="13.1296069"><name>World of Pizza</name><desc>amenity=fast_food
+cuisine=pizza
+name=World of Pizza</desc><link href="http://osm.org/browse/node/1944887347"/></wpt><wpt lat="52.1450292" lon="14.6728209"><name>PIZZA LAND Eisenhüttenstadt</name><desc>amenity=fast_food
+cuisine=pizza
+name=PIZZA LAND Eisenhüttenstadt
+opening_hours=Mo-Sa 11:00-14:00,17:00-23:00; Su 13:00-23:00</desc><link href="http://osm.org/browse/node/2046506835"/></wpt><wpt lat="52.3952304" lon="12.5447399"><name>Mc Via Pizzeria</name><desc>addr:city=Brandenburg an der Havel
+addr:country=DE
+addr:housenumber=8
+addr:postcode=14776
+addr:street=Göttiner Straße
+amenity=fast_food
+contact:email=kontakt@mcvia.de
+contact:phone=+49 3381 8908686
+contact:website=https://mcvia.de/
+cuisine=pizza
+delivery=yes
+name=Mc Via Pizzeria
+opening_hours=Tu-Sa 11:00-14:00,17:00-21:30; Su 17:00-21:30
+operator=Alp Aslan</desc><link href="http://osm.org/browse/node/2100544805"/></wpt><wpt lat="52.4246641" lon="13.7572329"><name>Pizza Planet</name><desc>addr:housenumber=11
+addr:street=Rudolf-Breitscheid-Straße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=Pizza Planet
+opening_hours=Mo 17:00-22:00; Tu-Fr 11:00-13:00, 17:00-22:00; Sa-Su 17:00-22:00
+phone=+49 3362 947380
+website=http://www.pizzaplanet.de/pizza-planet/20</desc><link href="http://osm.org/browse/node/2177563746"/></wpt><wpt lat="52.8386285" lon="13.7374602"><name>Call a Pizza Eberswalde</name><desc>addr:city=Eberswalde
+addr:country=DE
+addr:housenumber=63
+addr:postcode=16227
+addr:street=Eberswalder Straße
+amenity=fast_food
+brand=Call a Pizza
+brand:wikidata=Q1027107
+contact:phone=+49 3334 383000
+contact:website=https://www.call-a-pizza.de/eberswalde/
+cuisine=pizza
+name=Call a Pizza Eberswalde
+opening_hours=11:00-22:00
+wheelchair=yes</desc><link href="http://osm.org/browse/node/2416016212"/></wpt><wpt lat="52.9168354" lon="12.8325842"><name>CallaPizza</name><desc>addr:city=Neuruppin
+addr:housename=Lindenzentrum
+addr:housenumber=3
+addr:postcode=16816
+addr:street=Sanddornring
+amenity=fast_food
+cuisine=pizza
+name=CallaPizza
+opening_hours=Mo-Su 11:00-23:00
+website=https://www.call-a-pizza.de/</desc><link href="http://osm.org/browse/node/2419955274"/></wpt><wpt lat="52.9129023" lon="12.7927225"><name>node/2436464280</name><desc>amenity=fast_food
+cuisine=pizza</desc><link href="http://osm.org/browse/node/2436464280"/></wpt><wpt lat="51.5220017" lon="14.0041657"><name>Domino's</name><desc>amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+cuisine=pizza
+name=Domino's
+phone=+49 3573 797879
+takeaway=yes
+website=https://www.dominos.de/filiale/de-senftenberg-34148
+wheelchair=no</desc><link href="http://osm.org/browse/node/2438867152"/></wpt><wpt lat="52.9940103" lon="11.7528571"><name>Pizza Point Wittenberge</name><desc>addr:city=Wittenberge
+addr:housenumber=89
+addr:postcode=19322
+addr:street=Bahnstraße
+amenity=restaurant
+check_date=2022-09-23
+cuisine=pizza
+name=Pizza Point Wittenberge
+opening_hours=We-Sa 11:00-21:30; Su 16:00-21:30
+payment:cards=no
+payment:credit_cards=no
+payment:debit_cards=no
+phone=+49 3877 75262
+toilets:wheelchair=no
+website=http://www.pizza-point-wittenberge.de
+website:menu=http://www.pizza-point-wittenberge.de/karte/karte.pdf
+wheelchair=yes</desc><link href="http://osm.org/browse/node/2441075072"/></wpt><wpt lat="53.0521801" lon="14.2850681"><name>Pane et Piu</name><desc>amenity=restaurant
+cuisine=pizza
+name=Pane et Piu
+toilets:wheelchair=no
+wheelchair=yes</desc><link href="http://osm.org/browse/node/2441296589"/></wpt><wpt lat="51.9408091" lon="13.891673"><name>Domino's</name><desc>addr:city=Lübben (Spreewald)
+addr:housenumber=4
+addr:postcode=15907
+addr:street=Breite Straße
+amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+brand:wikipedia=en:Domino's Pizza
+contact:phone=+49 3546 278050
+contact:website=https://www.dominos.de/filiale/de-lbben-34023
+cuisine=pizza
+delivery=yes
+diet:vegan=yes
+name=Domino's
+opening_hours=Mo-Fr 11:00-14:00, 17:00-22:00; Sa-Su 11:00-22:30
+takeaway=yes
+wheelchair=no</desc><link href="http://osm.org/browse/node/2457010004"/></wpt><wpt lat="51.9411499" lon="13.8962416"><name>Pronto Pizza</name><desc>addr:city=Lübben (Spreewald)
+addr:housenumber=12B
+addr:postcode=15907
+addr:street=Hauptstraße
+amenity=fast_food
+cuisine=pizza
+name=Pronto Pizza
+wheelchair=no</desc><link href="http://osm.org/browse/node/2457010149"/></wpt><wpt lat="52.4001518" lon="12.5489603"><name>Call a Pizza</name><desc>addr:city=Brandenburg an der Havel
+addr:country=DE
+addr:housenumber=24-25
+addr:postcode=14776
+addr:street=Wilhelmsdorfer Straße
+amenity=restaurant
+contact:phone=+49 3381 795500
+cuisine=pizza
+delivery=yes
+name=Call a Pizza
+opening_hours=Mo-Su,Ph 11:00-22:00
+smoking=outside
+takeaway=yes
+website=https://www.call-a-pizza.de/brandenburg_an_der_havel/</desc><link href="http://osm.org/browse/node/2470887778"/></wpt><wpt lat="52.7562069" lon="13.2472503"><name>La Strada</name><desc>amenity=restaurant
+cuisine=pizza
+indoor_seating=yes
+name=La Strada
+outdoor_seating=yes</desc><link href="http://osm.org/browse/node/2508698766"/></wpt><wpt lat="53.0170812" lon="14.000506"><name>Pizzeria Piccolo</name><desc>addr:city=Angermünde
+addr:country=DE
+addr:housenumber=61
+addr:postcode=16278
+addr:street=Berliner Straße
+amenity=restaurant
+cuisine=pizza
+name=Pizzeria Piccolo
+opening_hours=Mo-Fr 11:00-14:00,17:00-22:00; Sa,Su 11:00-22:00
+phone=+49 3331 299821
+wheelchair=limited</desc><link href="http://osm.org/browse/node/2537031342"/></wpt><wpt lat="52.9946353" lon="11.7513447"><name>Pizza Planet</name><desc>amenity=fast_food
+cuisine=pizza
+name=Pizza Planet
+opening_hours=Mo-Su 15:30-22:00
+website=http://www.pizzaplanet.de</desc><link href="http://osm.org/browse/node/2705602745"/></wpt><wpt lat="52.724026" lon="14.129814"><name>Pizzeria R2</name><desc>amenity=restaurant
+cuisine=pizza
+name=Pizzeria R2
+outdoor_seating=yes
+phone=+49 33456 151214
+wheelchair=no</desc><link href="http://osm.org/browse/node/2836085101"/></wpt><wpt lat="52.5596854" lon="13.075724"><name>Call a Pizza</name><desc>amenity=fast_food
+brand=Call a Pizza
+brand:wikidata=Q1027107
+contact:phone=+49 3322 2330880
+contact:website=https://www.call-a-pizza.de/falkensee/
+cuisine=pizza
+delivery=only
+level=0
+name=Call a Pizza
+opening_hours=11:00-22:00
+takeaway=only</desc><link href="http://osm.org/browse/node/2935720108"/></wpt><wpt lat="52.5585307" lon="13.0904607"><name>New York Pizza</name><desc>amenity=fast_food
+contact:phone=+49 3322 4211833
+contact:website=https://www.newyorkpizza.de/
+cuisine=pizza
+delivery=yes
+level=0
+name=New York Pizza
+opening_hours=Mo-Fr 11:30-14:00,16:00-22:00; Sa 16:00-22:00; Su 15:00-22:00
+takeaway=yes</desc><link href="http://osm.org/browse/node/3029571479"/></wpt><wpt lat="52.6044309" lon="12.8791844"><name>Pizza Planet</name><desc>addr:city=Nauen
+addr:housenumber=1
+addr:postcode=14641
+addr:street=Feldstraße
+amenity=fast_food
+cuisine=pizza
+name=Pizza Planet
+opening_hours=Mo-Fr 11:00-14:00,16:00-22:00; Sa-Su 16:00-22:00
+phone=+49 3321 7486480
+website=http://www.pizzaplanet.de/</desc><link href="http://osm.org/browse/node/3029571480"/></wpt><wpt lat="52.3917171" lon="13.0924616"><name>Domino’s</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=33
+addr:postcode=14482
+addr:street=Rudolf-Breitscheid-Straße
+addr:suburb=Babelsberg
+amenity=fast_food
+brand=Domino’s Pizza
+brand:wikidata=Q1691878
+brand:wikipedia=de:Domino’s Pizza Deutschland
+check_date:opening_hours=2023-02-02
+contact:phone=+49 331 24364040
+contact:website=https://www.dominos.de/filiale/de-potsdam-33944
+cuisine=pizza
+delivery=yes
+diet:vegan=yes
+mapillary=498349544742644
+name=Domino’s
+opening_hours=Mo-Su 11:00-23:00
+takeaway=yes
+wheelchair=yes</desc><link href="http://osm.org/browse/node/3086737577"/></wpt><wpt lat="52.531791" lon="12.3462433"><name>Pizzeria-Culinaria</name><desc>amenity=restaurant
+cuisine=pizza
+name=Pizzeria-Culinaria
+smoking=outside</desc><link href="http://osm.org/browse/node/3121807734"/></wpt><wpt lat="52.3495434" lon="14.0695779"><name>Pizza-Planet</name><desc>addr:city=Fürstenwalde/Spree
+addr:housenumber=122
+addr:postcode=15517
+addr:street=August-Bebel-Straße
+amenity=restaurant
+cuisine=pizza
+name=Pizza-Planet</desc><link href="http://osm.org/browse/node/3400255871"/></wpt><wpt lat="53.3181848" lon="13.8525233"><name>Pizza Planet</name><desc>addr:city=Prenzlau
+addr:housenumber=78
+addr:postcode=17291
+addr:street=Neubrandenburger Straße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=Pizza Planet
+phone=+49 3985833533
+takeaway=yes
+website=www.pizzaplanet.de</desc><link href="http://osm.org/browse/node/3404688241"/></wpt><wpt lat="53.1208191" lon="13.5029561"><name>Pizza Planet</name><desc>addr:city=Templin
+addr:housenumber=44
+addr:postcode=17268
+addr:street=Werderstraße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=Pizza Planet
+opening_hours=Mo-Fr 11:00-13:00,17:00-22:00; Sa-Su 15:00-22:00
+phone=+49 3987 2008800
+website=http://www.pizzaplanet.de</desc><link href="http://osm.org/browse/node/3431438265"/></wpt><wpt lat="52.6762863" lon="13.5918523"><name>Domino's</name><desc>addr:housenumber=2
+addr:street=Bahnhofsplatz
+amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+cuisine=pizza
+name=Domino's
+takeaway=yes</desc><link href="http://osm.org/browse/node/3498730025"/></wpt><wpt lat="52.6091984" lon="12.3451007"><name>City Pizza</name><desc>addr:city=Rathenow
+addr:country=DE
+addr:housenumber=72
+addr:postcode=14712
+addr:street=Goethestraße
+amenity=restaurant
+check_date:opening_hours=2023-10-13
+cuisine=pizza
+name=City Pizza
+opening_hours=Mo-Sa 11:00-14:00,17:00-22:00; Su 17:00-22:00
+wheelchair=no</desc><link href="http://osm.org/browse/node/3613471767"/></wpt><wpt lat="52.6287594" lon="13.2022586"><name>Pizza Planet</name><desc>addr:city=Hennigsdorf
+addr:country=DE
+addr:housenumber=17
+addr:postcode=16761
+addr:street=Edisonstraße
+amenity=fast_food
+cuisine=pizza
+name=Pizza Planet
+opening_hours=Mo-Th 11:00-14:00, 16:00-22:00; Fr 11:00-22:00; Sa-Su 14:00-22:00
+phone=+4933022085900
+website=https://www.pizzaplanet.de</desc><link href="http://osm.org/browse/node/3717645911"/></wpt><wpt lat="51.783705" lon="14.073497"><name>Spreewaldpizza</name><desc>amenity=fast_food
+cuisine=pizza
+name=Spreewaldpizza
+opening_hours=Mo-Su 16:00-22:00</desc><link href="http://osm.org/browse/node/3797991489"/></wpt><wpt lat="53.0558622" lon="14.2816715"><name>Pizza Planet</name><desc>addr:city=Schwedt/Oder
+addr:housenumber=9
+addr:postcode=16303
+addr:street=Auguststraße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=Pizza Planet
+phone=+49 (0)3332 582858
+takeaway=yes
+website=http://www.pizzaplanet.de
+wheelchair=limited</desc><link href="http://osm.org/browse/node/3810159602"/></wpt><wpt lat="52.758165" lon="13.251851"><name>node/3907037457</name><desc>amenity=fast_food
+cuisine=pizza</desc><link href="http://osm.org/browse/node/3907037457"/></wpt><wpt lat="52.5869108" lon="13.7926078"><name>Buchholz Saloon</name><desc>addr:city=Altlandsberg
+addr:housenumber=12
+addr:postcode=15345
+addr:street=Wesendahler Straße
+amenity=pub
+cuisine=pizza
+name=Buchholz Saloon
+opening_hours=Sa-Su 09:00-18:00
+website=https://www.the-buchholz-saloon.de/
+wheelchair=yes</desc><link href="http://osm.org/browse/node/3955159178"/></wpt><wpt lat="52.2991692" lon="13.6242503"><name>Pizza for You</name><desc>addr:city=Königs Wusterhausen
+addr:housenumber=1
+addr:postcode=15711
+addr:street=Schloßstraße
+amenity=fast_food
+cuisine=pizza
+name=Pizza for You</desc><link href="http://osm.org/browse/node/4033115289"/></wpt><wpt lat="52.6050867" lon="12.8760393"><name>Mamma Mia</name><desc>amenity=restaurant
+contact:phone=+49 3321 407520
+cuisine=pizza
+name=Mamma Mia
+opening_hours=Mo-Fr 10:00-22:00; Sa,Su 11:00-22:00
+outdoor_seating=yes
+takeaway=yes
+wheelchair=yes</desc><link href="http://osm.org/browse/node/4187538259"/></wpt><wpt lat="52.3693048" lon="13.1347056"><name>Domino's Pizza Potsdam Sterncenter</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=35
+addr:postcode=14480
+addr:street=Gerlachstraße
+amenity=fast_food
+brand=Domino's Pizza
+brand:wikidata=Q839466
+cuisine=pizza
+delivery=yes
+name=Domino's Pizza Potsdam Sterncenter
+takeaway=yes</desc><link href="http://osm.org/browse/node/4414952722"/></wpt><wpt lat="52.4071647" lon="12.5607191"><name>World Of Pizza</name><desc>addr:city=Brandenburg an der Havel
+addr:country=DE
+addr:housenumber=55
+addr:postcode=14776
+addr:street=Steinstraße
+amenity=fast_food
+contact:phone=+49 3381 20 999 99
+contact:website=https://www.world-of-pizza.de/brandenburg/
+cuisine=pizza
+delivery=yes
+name=World Of Pizza
+opening_hours=Mo-Su 11:00-23:00
+outdoor_seating=no
+takeaway=yes</desc><link href="http://osm.org/browse/node/4546728397"/></wpt><wpt lat="51.8326212" lon="14.1493532"><name>Pizza Bäckerei</name><desc>addr:city=Burg (Spreewald)
+addr:country=DE
+addr:housenumber=1
+addr:postcode=03096
+addr:street=An der Post
+amenity=fast_food
+cuisine=pizza
+name=Pizza Bäckerei
+phone=+49 35603 189666</desc><link href="http://osm.org/browse/node/4818212275"/></wpt><wpt lat="53.2169997" lon="13.6863992"><name>Francesco`s Pizzeria</name><desc>addr:city=Boitzenburger Land
+addr:country=DE
+addr:housenumber=36a
+addr:postcode=17268
+addr:street=Kuhzer Straße
+addr:suburb=Haßleben
+amenity=restaurant
+contact:phone=+49 39884 799864
+contact:website=http://francescos-pizza.com
+cuisine=pizza
+name=Francesco`s Pizzeria
+opening_hours=Tu-Fr 17:00-21:00; Sa,Su 11:30-14:00,17:00-21:00
+takeaway=yes
+toilets:wheelchair=no
+wheelchair=yes</desc><link href="http://osm.org/browse/node/5019401072"/></wpt><wpt lat="53.0692383" lon="11.8625897"><name>Schade</name><desc>amenity=restaurant
+cuisine=pizza
+delivery=yes
+delivery:covid19=only
+name=Schade
+takeaway=yes</desc><link href="http://osm.org/browse/node/5157860327"/></wpt><wpt lat="52.349786" lon="13.6272636"><name>Pizza Europa Express</name><desc>addr:city=Zeuthen
+addr:housenumber=26C
+addr:postcode=15738
+addr:street=Goethestraße
+amenity=fast_food
+cuisine=pizza
+name=Pizza Europa Express</desc><link href="http://osm.org/browse/node/5204923623"/></wpt><wpt lat="51.7572028" lon="14.3195135"><name>Freddy Fresh</name><desc>amenity=restaurant
+cuisine=pizza
+delivery=yes
+name=Freddy Fresh
+takeaway=only</desc><link href="http://osm.org/browse/node/5208487652"/></wpt><wpt lat="53.1187523" lon="13.5088205"><name>Pizza Avantii</name><desc>amenity=restaurant
+cuisine=pizza
+name=Pizza Avantii</desc><link href="http://osm.org/browse/node/5526058829"/></wpt><wpt lat="52.357094" lon="14.0623369"><name>Call a Pizza</name><desc>addr:city=Fürstenwalde/Spree
+addr:country=DE
+addr:housenumber=2-3
+addr:postcode=15517
+addr:street=Fischerstraße
+amenity=fast_food
+contact:phone=+49 3361 3767580
+contact:website=https://www.call-a-pizza.de/fuerstenwalde_spree/
+cuisine=pizza
+delivery=yes
+drive_through=no
+name=Call a Pizza
+opening_hours=11:00-22:00
+outdoor_seating=no
+smoking=outside
+takeaway=only</desc><link href="http://osm.org/browse/node/5554817295"/></wpt><wpt lat="52.53524" lon="13.0604117"><name>Pizzeria Toto</name><desc>addr:city=Dallgow-Döberitz
+addr:country=DE
+addr:housenumber=5
+addr:postcode=14624
+addr:street=Wilmsstraße
+amenity=fast_food
+contact:facebook=https://www.facebook.com/totodallgow
+cuisine=pizza
+diet:vegan=no
+diet:vegetarian=yes
+indoor_seating=yes
+level=0
+name=Pizzeria Toto
+opening_hours=Tu-Fr 13:00-22:00; Sa,Su 13:00-22:00
+outdoor_seating=yes
+phone=+49 1512 9931816
+smoking=outside
+takeaway=yes
+wheelchair=yes</desc><link href="http://osm.org/browse/node/5565004589"/></wpt><wpt lat="51.5716799" lon="14.3786435"><name>Domino's Pizza</name><desc>addr:city=Spremberg
+addr:country=DE
+addr:housenumber=5
+addr:postcode=03130
+addr:street=Badergasse
+amenity=fast_food
+brand=Domino's Pizza
+brand:wikidata=Q839466
+brand:wikipedia=en:Domino's Pizza
+cuisine=pizza
+name=Domino's Pizza
+opening_hours=Mo-Su 11:00-23:00
+operator=Hallo Pizza
+outdoor_seating=no</desc><link href="http://osm.org/browse/node/5751331121"/></wpt><wpt lat="52.4003362" lon="13.0579199"><name>Melody Pizzeria</name><desc>amenity=fast_food
+check_date:opening_hours=2023-07-05
+contact:phone=+49 331 64758638
+contact:website=https://www.pizzeria-melody-potsdam.de/
+cuisine=pizza
+delivery=yes
+diet:vegetarian=yes
+indoor_seating=yes
+internet_access=wlan
+internet_access:fee=no
+name=Melody Pizzeria
+opening_hours:signed=no
+operator=Emrah Oezbay
+outdoor_seating=yes
+payment:girocard=yes
+payment:google_pay=yes
+smoking=outside
+takeaway=yes
+wheelchair=yes</desc><link href="http://osm.org/browse/node/6025501889"/></wpt><wpt lat="52.4128451" lon="12.5546345"><name>Pizzeria Avanti</name><desc>addr:city=Brandenburg an der Havel
+addr:country=DE
+addr:housenumber=22
+addr:postcode=14770
+addr:street=Bäckerstraße
+amenity=fast_food
+contact:phone=+49 3381 212055
+contact:website=https://www.avanti-brb.de/
+cuisine=pizza
+name=Pizzeria Avanti
+opening_hours=Tu-Fr 11:00-22:00; Sa, PH 17:00-22:00; Su 12:00-22:00
+operator=Safet Hadzajlic</desc><link href="http://osm.org/browse/node/6140971092"/></wpt><wpt lat="51.7296293" lon="14.3262759"><name>Freddy Fresh</name><desc>addr:city=Cottbus
+addr:country=DE
+addr:housenumber=7
+addr:postcode=03048
+addr:street=Thierbacher Straße
+amenity=fast_food
+cuisine=pizza
+delivery=Mo-Su 11:00-22:30
+name=Freddy Fresh
+opening_hours=Mo-Su 11:00-22:30
+operator=FFPCB GmbH &amp; Co. KG
+takeaway=yes
+website=https://www.freddy-fresh.de/freddy-fresh-pizza-cottbus/</desc><link href="http://osm.org/browse/node/6284033508"/></wpt><wpt lat="51.7468671" lon="13.9478745"><name>Calauer Pizza Express</name><desc>amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=Calauer Pizza Express</desc><link href="http://osm.org/browse/node/6369764162"/></wpt><wpt lat="52.4010913" lon="13.2673638"><name>Pizza Jack</name><desc>addr:city=Teltow
+addr:country=DE
+addr:housenumber=10
+addr:postcode=14513
+addr:street=Berliner Straße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=Pizza Jack
+takeaway=yes
+website=https://www.pizzajack.de/teltow/
+wheelchair=yes</desc><link href="http://osm.org/browse/node/6602072797"/></wpt><wpt lat="51.7576253" lon="14.3321272"><name>Domino's</name><desc>addr:city=Cottbus
+addr:country=DE
+addr:housenumber=136
+addr:postcode=03046
+addr:street=Karl-Liebknecht-Straße
+amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+brand:wikipedia=en:Domino's Pizza
+cuisine=pizza
+name=Domino's
+opening_hours=Mo-Su 11:00-23:00
+phone=+49 355 288633
+short_name=Domino's
+takeaway=yes</desc><link href="http://osm.org/browse/node/6672777747"/></wpt><wpt lat="52.2939052" lon="14.0638364"><name>Pizza to Go</name><desc>amenity=fast_food
+cuisine=pizza
+name=Pizza to Go</desc><link href="http://osm.org/browse/node/6777802413"/></wpt><wpt lat="52.9812041" lon="13.3342516"><name>Pizzeria Dolce Vita</name><desc>amenity=fast_food
+cuisine=pizza
+name=Pizzeria Dolce Vita</desc><link href="http://osm.org/browse/node/6820830110"/></wpt><wpt lat="52.3644643" lon="13.594593"><name>Ristorante Italia</name><desc>addr:city=Schulzendorf
+addr:housenumber=2
+addr:postcode=15732
+addr:street=Richard-Israel-Straße
+amenity=restaurant
+cuisine=pizza
+name=Ristorante Italia
+wheelchair=yes</desc><link href="http://osm.org/browse/node/6964920871"/></wpt><wpt lat="52.5383723" lon="13.8173249"><name>Call a Pizza</name><desc>addr:city=Eggersdorf
+addr:housenumber=16
+addr:postcode=15345
+addr:street=Am Markt
+amenity=fast_food
+check_date:opening_hours=2022-10-20
+contact:phone=+49 3341 420775
+cuisine=pizza
+diet:vegetarian=yes
+drive_through=no
+indoor_seating=no
+name=Call a Pizza
+opening_hours=Mo-Su 11:00-22:00
+outdoor_seating=no
+takeaway=only
+wheelchair=yes</desc><link href="http://osm.org/browse/node/7111016345"/></wpt><wpt lat="51.8571186" lon="13.9521157"><name>Domino's</name><desc>addr:housenumber=4
+addr:street=Alte Huttung
+amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+brand:wikipedia=en:Domino's Pizza
+cuisine=pizza
+diet:vegetarian=yes
+name=Domino's
+opening_hours=Mo 11:00-14:00,17:00-22:00; Tu-Th 11:00-14:00,17:00-22:00; Fr 11:00-14:00,17:00-22:30; Sa 11:00-22:30; Su 11:00-22:30
+takeaway=yes
+website=https://www.dominos.de/filiale/de-lbbenau-34024
+wheelchair=yes</desc><link href="http://osm.org/browse/node/7577279329"/></wpt><wpt lat="51.9562735" lon="14.6762726"><name>Pizzeria il Gusto</name><desc>addr:city=Guben
+addr:country=DE
+addr:housenumber=2A
+addr:postcode=03172
+addr:street=Friedrich-Schiller-Straße
+contact:mobile=+49 1757141783
+contact:phone=+49 3561 6869330
+cuisine=pizza
+name=Pizzeria il Gusto
+opening_hours=Mo off; Tu-Th 16:00-22:00; Fr-Sa 16:00-23:00; Su 15:00-22:00</desc><link href="http://osm.org/browse/node/7605514789"/></wpt><wpt lat="52.4144195" lon="13.0509338"><name>Pizza Fabrik</name><desc>access=customers
+addr:city=Potsdam
+addr:country=DE
+addr:housenumber=3
+addr:postcode=14469
+addr:street=Annemarie-Wolff-Platz
+addr:suburb=Bornstedt
+amenity=restaurant
+capacity=60
+contact:website=https://pizza-fabrik-potsdam.business.site/
+cuisine=pizza
+door=hinged
+entrance=main
+indoor_seating=yes
+name=Pizza Fabrik
+opening_hours=Mo-Sa 12:00-20:00; PH,Su off
+operator=Franco Cremonini;Andrea Mehnert
+operator:type=private
+outdoor_seating=yes
+payment:cards=yes
+payment:cash=no
+start_date=2020-08-14
+wheelchair=yes</desc><link href="http://osm.org/browse/node/7811969523"/></wpt><wpt lat="52.0872588" lon="13.1714779"><name>New York Pizza</name><desc>addr:city=Luckenwalde
+addr:housenumber=25
+addr:postcode=14943
+addr:street=Breite Straße
+amenity=fast_food
+cuisine=pizza
+name=New York Pizza</desc><link href="http://osm.org/browse/node/7830631190"/></wpt><wpt lat="52.3137164" lon="13.6103791"><name>Ciao Bella</name><desc>addr:city=Wildau
+addr:housenumber=1
+addr:postcode=15745
+addr:street=Chausseestraße
+amenity=fast_food
+cuisine=pizza
+name=Ciao Bella
+opening_hours=Mo-Th 10:00-20:00; Fr,Sa 10:00-21:00; PH off</desc><link href="http://osm.org/browse/node/7836030437"/></wpt><wpt lat="52.6742087" lon="13.3156896"><name>Pizza Station</name><desc>addr:postcode=16562
+amenity=fast_food
+cuisine=pizza
+name=Pizza Station
+opening_hours=Mo-Fr 12:00-21:00; Sa-Su 13:00-21:00</desc><link href="http://osm.org/browse/node/8018733192"/></wpt><wpt lat="51.7528744" lon="14.3239067"><name>Telepizza</name><desc>amenity=fast_food
+brand=Telepizza
+brand:wikidata=Q2699863
+brand:wikipedia=en:Telepizza
+cuisine=pizza
+name=Telepizza
+start_date=2020 Sep 17
+takeaway=yes
+website=https://www.telepizza.de/
+wheelchair=no</desc><link href="http://osm.org/browse/node/8040043399"/></wpt><wpt lat="52.3914254" lon="13.032783"><name>World of Pizza Potsdam-West</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=47A
+addr:postcode=14471
+addr:street=Zeppelinstraße
+amenity=fast_food
+cuisine=pizza
+name=World of Pizza Potsdam-West
+opening_hours=Mo-Su 11:00-23:00
+operator=World of Pizza
+phone=+49 331 979 222 77
+website=https://www.world-of-pizza.de</desc><link href="http://osm.org/browse/node/8188018867"/></wpt><wpt lat="52.8373531" lon="13.7365095"><name>Pizza Planet</name><desc>addr:city=Eberswalde
+addr:country=DE
+addr:housenumber=2
+addr:postcode=16227
+addr:street=Schönholzer Straße
+amenity=fast_food
+brand=Pizza Planet
+cuisine=pizza
+delivery=yes
+name=Pizza Planet
+website=https://www.pizzaplanet.de</desc><link href="http://osm.org/browse/node/8234039749"/></wpt><wpt lat="52.3909081" lon="13.0277322"><name>Call a Pizza</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=19
+addr:postcode=14471
+addr:street=Kantstraße
+amenity=restaurant
+brand=Call a Pizza
+brand:wikidata=Q1027107
+cuisine=pizza
+name=Call a Pizza
+website=https://www.call-a-pizza.de/potsdam_potsdam_west/</desc><link href="http://osm.org/browse/node/8422303558"/></wpt><wpt lat="51.9413284" lon="13.9038675"><name>Anarkalli Pizza</name><desc>addr:city=Lübben (Spreewald)
+addr:housenumber=4
+addr:postcode=15907
+addr:street=An der Kupka
+amenity=fast_food
+cuisine=pizza
+name=Anarkalli Pizza</desc><link href="http://osm.org/browse/node/8518986124"/></wpt><wpt lat="52.3941142" lon="13.0369816"><name>Domino's</name><desc>amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+brand:wikipedia=en:Domino's Pizza
+cuisine=pizza
+delivery=yes
+name=Domino's
+opening_hours=Mo-Su 11:00-23:00
+takeaway=yes</desc><link href="http://osm.org/browse/node/8537344269"/></wpt><wpt lat="53.1572765" lon="12.4546864"><name>Pizza Planet</name><desc>addr:city=Wittstock/Dosse
+addr:housenumber=1
+addr:postcode=16909
+addr:street=Berliner Straße
+amenity=fast_food
+cuisine=pizza
+name=Pizza Planet</desc><link href="http://osm.org/browse/node/8754290310"/></wpt><wpt lat="52.3561189" lon="14.0774206"><name>Pizza Box</name><desc>addr:housenumber=65
+addr:postcode=15517
+addr:street=Lindenstraße
+amenity=fast_food
+cuisine=pizza
+name=Pizza Box
+phone=+4933613318830
+website=https://www.pizzaboxfuerstenwalde.de/</desc><link href="http://osm.org/browse/node/8764637442"/></wpt><wpt lat="52.3449889" lon="14.2773565"><name>Pizzeria Milano</name><desc>addr:city=Briesen (Mark)
+addr:country=DE
+addr:housenumber=9
+addr:postcode=15518
+addr:street=Bahnhofstraße
+amenity=fast_food
+cuisine=pizza
+delivery=yes
+name=Pizzeria Milano
+operator=Mohammad Al Qadi
+takeaway=yes
+website=https://menu.happz.de/l/pizzeria-milano</desc><link href="http://osm.org/browse/node/9051024271"/></wpt><wpt lat="52.2151568" lon="13.2144988"><name>Avanti Pizza Service</name><desc>addr:housenumber=32
+addr:street=Berliner Straße
+amenity=fast_food
+cuisine=pizza
+name=Avanti Pizza Service
+opening_hours=Mo 17:00-22:30;
+Tu-Fr 11:00-14:00, 17:00-22:30; Sa,Su,PH 12:00-14:00, 17:00-22:30
+phone=+49 33731 291056</desc><link href="http://osm.org/browse/node/9103636566"/></wpt><wpt lat="51.5246378" lon="13.9974162"><name>Pizza Land</name><desc>addr:housenumber=3
+addr:street=Kirchplatz
+amenity=fast_food
+cuisine=pizza
+name=Pizza Land
+opening_hours=We-Th 11:00-13:00, 17:00-21:00; Fr 11:00-13:00, 17:00-22:00; Sa, Su, PH 17:00-22:00
+operator=Pizza Land
+phone=+49 3573 808680
+website=http://www.pizza-land.de</desc><link href="http://osm.org/browse/node/9146868695"/></wpt><wpt lat="51.7285602" lon="14.3256796"><name>Domino's</name><desc>amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+brand:wikipedia=en:Domino's Pizza
+cuisine=pizza
+name=Domino's
+phone=+4935586689849
+takeaway=yes
+website=https://www.dominos.de/filiale/de-cottbussd-33994?utm_source=Google&amp;utm_medium=local&amp;utm_campaign=yext&amp;utm_content=33994</desc><link href="http://osm.org/browse/node/9343746127"/></wpt><wpt lat="52.6407328" lon="13.2065897"><name>Domino`s Pizza</name><desc>amenity=fast_food
+cuisine=pizza
+name=Domino`s Pizza</desc><link href="http://osm.org/browse/node/9573906939"/></wpt><wpt lat="52.5768463" lon="13.8816547"><name>La pizza.de</name><desc>amenity=restaurant
+cuisine=pizza
+indoor_seating=yes
+name=La pizza.de
+outdoor_seating=yes</desc><link href="http://osm.org/browse/node/9742094270"/></wpt><wpt lat="52.2915115" lon="13.6232726"><name>Pizza Planet</name><desc>addr:city=Königs Wusterhausen
+addr:housenumber=55
+addr:postcode=15711
+addr:street=Goethestraße
+amenity=fast_food
+cuisine=pizza
+name=Pizza Planet</desc><link href="http://osm.org/browse/node/9775591011"/></wpt><wpt lat="52.6299529" lon="13.3107841"><name>Domino's</name><desc>amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+check_date=2022-07-17
+cuisine=pizza
+drive_through=no
+level=0
+name=Domino's
+opening_hours=Mo-Fr 10:00-18:30; Sa 10:00-16:00
+operator=Tom Marco Viets
+payment:mastercard=yes
+payment:visa=yes
+phone=+49 33056 434811
+takeaway=yes
+website=https://dominos.de/
+wheelchair=yes</desc><link href="http://osm.org/browse/node/9892595565"/></wpt><wpt lat="52.4171232" lon="12.5526536"><name>Domino's</name><desc>addr:city=Brandenburg an der Havel
+addr:housenumber=15A
+addr:postcode=14770
+addr:street=Willi-Sänger-Straße
+amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+cuisine=pizza
+drive_through=no
+name=Domino's
+opening_hours=Mo-Su 11:00-23:00
+phone=+49 3381 3424622
+takeaway=yes
+website=https://www.dominos.de/filiale/de-brandenburganderhavel-33997</desc><link href="http://osm.org/browse/node/10000713790"/></wpt><wpt lat="52.3583085" lon="14.0645909"><name>Domino's</name><desc>addr:city=Fürstenwalde/Spree
+addr:postcode=15517
+addr:street=Domstraße
+amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+cuisine=pizza
+name=Domino's
+takeaway=yes</desc><link href="http://osm.org/browse/node/10029819628"/></wpt><wpt lat="53.0069229" lon="13.1577594"><name>Don Carlo</name><desc>amenity=fast_food
+cuisine=pizza
+name=Don Carlo
+wheelchair=no</desc><link href="http://osm.org/browse/node/10075971434"/></wpt><wpt lat="52.4003584" lon="13.0575655"><name>PiPaSa</name><desc>addr:city=Potsdam
+addr:country=DE
+addr:housenumber=100
+addr:postcode=14467
+addr:street=Friedrich-Ebert-Straße
+addr:suburb=Nördliche Innenstadt
+amenity=fast_food
+check_date:opening_hours=2022-06-13
+contact:email=info@pizzapipasa.de
+contact:phone=+49 331 235 44200
+contact:website=https://www.pizzapipasa.de/
+cuisine=pizza
+delivery=11:00-23:00
+door=hinged
+entrance=main
+indoor_seating=yes
+level=0
+name=PiPaSa
+opening_hours=10:00-24:00+
+operator=PiPaSa El-Sleiman UG
+operator:type=business
+outdoor_seating=yes
+ref:vatin=DE331316657
+smoking=outside
+step_count=1
+takeaway=yes
+wheelchair=no</desc><link href="http://osm.org/browse/node/10251654121"/></wpt><wpt lat="51.9419299" lon="13.8946044"><name>al Ponte</name><desc>amenity=fast_food
+brand=Pizza Nova
+contact:email=info@alponte-lübben.de
+contact:phone=+49 3546 1769324
+cuisine=pizza
+level=0
+name=al Ponte
+opening_hours=Tu-Su 11:00-22:00
+smoking=outside
+takeaway=yes
+toilets=yes
+wheelchair=yes</desc><link href="http://osm.org/browse/node/10276268532"/></wpt><wpt lat="52.6059785" lon="12.3410354"><name>Domino's</name><desc>amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+cuisine=pizza
+delivery=yes
+level=0
+name=Domino's
+opening_hours=Mo-Su 11:00-23:00
+takeaway=yes</desc><link href="http://osm.org/browse/node/10285689034"/></wpt><wpt lat="52.4016252" lon="13.2590899"><name>Domino's</name><desc>amenity=fast_food
+brand=Domino's
+brand:wikidata=Q839466
+cuisine=pizza
+name=Domino's
+takeaway=yes
+website=https://www.dominos.de/filiale/de-teltow-33981</desc><link href="http://osm.org/browse/node/10584960706"/></wpt><wpt lat="52.4834067" lon="13.8484408"><name>Pizza Herz</name><desc>amenity=fast_food
+cuisine=pizza
+name=Pizza Herz</desc><link href="http://osm.org/browse/node/10961562802"/></wpt><wpt lat="51.7492135" lon="14.3268935"><name>Pizza Lombardia</name><desc>amenity=fast_food
+cuisine=pizza
+delivery=yes
+level=0
+name=Pizza Lombardia
+opening_hours=Tu - Su 11:00-14:00; 17:00-22:00
+phone=+49 355 75219947
+takeaway=yes</desc><link href="http://osm.org/browse/node/11062126807"/></wpt><wpt lat="52.3274947" lon="13.3902355"><name>Sabore Pizza</name><desc>addr:city=Blankenfelde-Mahlow
+addr:housenumber=5
+addr:postcode=15827
+addr:street=Triftstraße
+amenity=fast_food
+cuisine=pizza
+name=Sabore Pizza
+opening_hours=Th-Sa 16:00-21:30, Su 15:00-20:00
+phone=+49 3379 993 84 56
+takeaway=yes
+website=https://sabore.de</desc><link href="http://osm.org/browse/node/11085317306"/></wpt><wpt lat="52.6769771" lon="13.5848326"><name>Call a Pizza</name><desc>amenity=fast_food
+brand=Call a Pizza
+brand:wikidata=Q1027107
+cuisine=pizza
+name=Call a Pizza
+takeaway=yes</desc><link href="http://osm.org/browse/node/11198926242"/></wpt></gpx>
