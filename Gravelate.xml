@@ -157,6 +157,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="en" value="[R] Emphasized gravel" />
 		<cat id="grv_mark" />
 	</layer>
+	<layer id="elv-grv_access" enabled="true">
+		<name lang="en" value="[R] Show Road Access" />
+		<cat id="grv_access" />
+	</layer>
 
 	<!-- overlays base -->
 	<layer id="elv-background-h" enabled="true">
@@ -924,6 +928,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<overlay id="elv-buildings-m" />
 		<overlay id="elv-borders-m" />
 		<overlay id="elv-background-m" />
+		<overlay id="elv-grv_access" />
 		<overlay id="elv-grv_mtb" />
 		<overlay id="elv-grv_trackgrade" />
 		<overlay id="elv-grv_mark" />
@@ -4220,28 +4225,30 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 			</rule>
 			<rule e="way" k="*" v="*" zoom-min="12">
 				<rule e="way" k="highway" v="trunk|trunk_link|primary|primary_link|secondary|secondary_link|tertiary|tertiary_link|unclassified|residential|living_street|road|ford|pedestrian" zoom-min="15">
-					<!-- <rule cat="bike" e="any" k="*" v="*">
-						<rule e="any" k="bicycle" v="bic_destination">
-							<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.9" />
-						</rule>
-						<rule e="any" k="bicycle" v="bic_private">
-							<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.9" />
-						</rule>
-						<rule e="any" k="bicycle" v="bic_no|bic_forestry">
-							<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.9" />
-						</rule>
-						<rule e="any" k="bicycle" v="~">
-							<rule e="any" k="access" v="destination">
+					<rule cat="grv_access" e="any" k="*" v="*">
+						<rule cat="bike" e="any" k="*" v="*">
+							<rule e="any" k="bicycle" v="bic_destination">
 								<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.9" />
 							</rule>
-							<rule e="any" k="access" v="private">
+							<rule e="any" k="bicycle" v="bic_private">
 								<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.9" />
 							</rule>
-							<rule e="any" k="access" v="acc_no|forestry">
+							<rule e="any" k="bicycle" v="bic_no|bic_forestry">
 								<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.9" />
 							</rule>
+							<rule e="any" k="bicycle" v="~">
+								<rule e="any" k="access" v="destination">
+									<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.9" />
+								</rule>
+								<rule e="any" k="access" v="private">
+									<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.9" />
+								</rule>
+								<rule e="any" k="access" v="acc_no|forestry">
+									<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.9" />
+								</rule>
+							</rule>
 						</rule>
-					</rule> -->
+					</rule>
 					<rule cat="hike" e="any" k="*" v="*">
 						<rule e="any" k="foot" v="ft_destination">
 							<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.9" />
@@ -4277,56 +4284,60 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 					</rule>
 				</rule>
 				<rule e="way" k="highway" v="path|footway|steps|bridleway|service|cycleway|track|byway" zoom-min="15">
-					<!-- <rule cat="bike_only" e="any" k="*" v="*">
-						<rule e="any" k="bicycle" v="bic_destination">
-							<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.5" />
-						</rule>
-						<rule e="any" k="bicycle" v="bic_private">
-							<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.5" />
-						</rule>
-						<rule e="any" k="bicycle" v="bic_no|bic_forestry">
-							<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.5" />
-						</rule>
-						<rule e="any" k="bicycle" v="~">
-							<rule e="any" k="access" v="destination">
+					<rule cat="grv_access" e="any" k="*" v="*">
+						<rule cat="bike_only" e="any" k="*" v="*">
+							<rule e="any" k="bicycle" v="bic_destination">
 								<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.5" />
 							</rule>
-							<rule e="any" k="access" v="private">
+							<rule e="any" k="bicycle" v="bic_private">
 								<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.5" />
 							</rule>
-							<rule e="any" k="access" v="acc_no|forestry">
+							<rule e="any" k="bicycle" v="bic_no|bic_forestry">
 								<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.5" />
 							</rule>
+							<rule e="any" k="bicycle" v="~">
+								<rule e="any" k="access" v="destination">
+									<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.5" />
+								</rule>
+								<rule e="any" k="access" v="private">
+									<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.5" />
+								</rule>
+								<rule e="any" k="access" v="acc_no|forestry">
+									<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.5" />
+								</rule>
+							</rule>
 						</rule>
-					</rule> -->
+					</rule>
 					<rule cat="bike" e="any" k="*" v="*">
 						<rule cat="acc_allowed" e="any" k="bicycle" v="bic_designated|bic_yes|bic_permissive">
 							<line stroke="#00FF00" stroke-width="0.5" stroke-dasharray="0,1.75,1.5,3.75" stroke-linecap="butt" />
 							<line stroke="#00FF00" stroke-width="0.15" stroke-dasharray="5,2" stroke-linecap="butt" />
 						</rule>
 					</rule>
-					<!-- <rule cat="mtb" e="any" k="*" v="*">
-						<rule e="any" k="bicycle" v="bic_destination">
-							<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.65" />
-						</rule>
-						<rule e="any" k="bicycle" v="bic_private">
-							<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.65" />
-						</rule>
-						<rule e="any" k="bicycle" v="bic_no|bic_forestry">
-							<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.65" />
-						</rule>
-						<rule e="any" k="bicycle" v="~">
-							<rule e="any" k="access" v="destination">
+					<rule cat="grv_access" e="any" k="*" v="*">
+						<rule cat="mtb" e="any" k="*" v="*">
+							<rule e="any" k="bicycle" v="bic_destination">
 								<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.65" />
 							</rule>
-							<rule e="any" k="access" v="private">
+							<rule e="any" k="bicycle" v="bic_private">
 								<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.65" />
 							</rule>
-							<rule e="any" k="access" v="acc_no|forestry">
+							<rule e="any" k="bicycle" v="bic_no|bic_forestry">
 								<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.65" />
 							</rule>
+							<rule e="any" k="bicycle" v="~">
+								<rule e="any" k="access" v="destination">
+									<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.65" />
+								</rule>
+								<rule e="any" k="access" v="private">
+									<line src="file:ele-res/p_access-private.svg" symbol-height="8" stroke-width="0.65" />
+								</rule>
+								<rule e="any" k="access" v="acc_no|forestry">
+									<line src="file:ele-res/p_access-no.svg" symbol-height="8" stroke-width="0.65" />
+								</rule>
+							</rule>
 						</rule>
-					</rule> -->
+					</rule>
 					<rule cat="hike" e="any" k="*" v="*">
 						<rule e="any" k="foot" v="ft_destination">
 							<line src="file:ele-res/p_access-destination.svg" symbol-height="8" stroke-width="0.5" />
