@@ -2550,45 +2550,31 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<area fill="#5598F5FF" />
 	</rule>
 
-<!-- Gravel Highlihts -->
-	<rule cat="grv_trackgrade" e="way" k="*" v="*">
-		<rule e="way" k="tracktype" v="grade2" zoom-max="20" zoom-min="10">
-			<line stroke="#a04Aff50" stroke-width="2.2" stroke-linecap="round" />
+<!-- Track Grades Highlihts -->
+	<rule cat="grv_trackgrade" e="way" k="*" v="*" zoom-max="20" zoom-min="10">
+		<rule e="way" k="tracktype" v="grade2">
+			<line stroke="#4Aff50" stroke-width="2.5" stroke-dasharray="10,5,5,5" stroke-linecap="butt" />
+			<line stroke="#4Aff50" stroke-width="1.8" stroke-linecap="round" />
 		</rule>
 		<rule e="way" k="tracktype" v="grade3">
-			<line stroke="#a0ffdf00" stroke-width="2.2" stroke-linecap="round" />
+			<line stroke="#fff050" stroke-width="2.5" stroke-dasharray="10,5,5,5" stroke-linecap="butt" />
+			<line stroke="#fff050" stroke-width="1.8" stroke-linecap="round" />
 		</rule>
-		<rule e="way" k="tracktype" v="grade4|grade5">
-				<line stroke="#A0ff4a50" stroke-width="2.2" stroke-linecap="round" />
+		<rule e="way" k="tracktype" v="grade4">
+			<line stroke="#ff9c50" stroke-width="2.5" stroke-dasharray="10,5,5,5" stroke-linecap="butt" />
+			<line stroke="#ff9c50" stroke-width="1.8" stroke-linecap="round" />
+		</rule>
+		<rule e="way" k="tracktype" v="grade5">
+			<line stroke="#ff4a50" stroke-width="2.5" stroke-dasharray="10,5,5,5" stroke-linecap="butt" />
+			<line stroke="#ff4a50" stroke-width="1.8" stroke-linecap="round" />
 		</rule>
 		<rule e="way" k="smoothness" v="very_bad">
-				<line stroke="#ff00ff" stroke-width="2.2" stroke-linecap="round" />
+			<line stroke="#ff00ff" stroke-width="2.5" stroke-linecap="round" />
 		</rule>
 	</rule>
 
 	<rule e="any" k="surface" v="sand">
 		<line stroke="#FF0050" stroke-width="2.0" stroke-linecap="butt" />
-	</rule>
-
-	<rule cat="grv_mark" e="any" k="*" v="*" zoom-max="20" zoom-min="10">
-		<rule e="any" k="highway" v="footway|bridleway|pedestrian">
-			<rule e="way" k="surface" v="gravel|compacted|fine_gravel">
-				<line stroke="#f0444A50" stroke-width="1.5" stroke-dasharray="5,10" stroke-linecap="butt" />
-				<line stroke="#f0303030" stroke-width="1.0" stroke-linecap="butt" />
-			</rule>
-		</rule>
-		<rule e="any" k="highway" v="path">
-			<rule e="way" k="surface" v="gravel|compacted|fine_gravel">
-				<line stroke="#f0444A50" stroke-width="2.0" stroke-dasharray="5,10" stroke-linecap="butt" />
-				<line stroke="#f0303030" stroke-width="1.2" stroke-linecap="butt" />
-			</rule>
-		</rule>
-		<rule e="any" k="highway" v="track|cycleway|tertiary|unclassified">
-			<rule e="way" k="surface" v="gravel|compacted|fine_gravel">
-				<line stroke="#f0444A50" stroke-width="2.5" stroke-dasharray="5,5" stroke-linecap="butt" />
-				<line stroke="#f0303030" stroke-width="1.5" stroke-linecap="butt" />
-			</rule>
-		</rule>
 	</rule>
 
 <!-- cycling-routes zoom 14+ -->
@@ -2794,6 +2780,46 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 				<line stroke="#D0FFFFFF" stroke-width="1.5" stroke-dasharray="4,22" stroke-linecap="butt" />
 			</rule>
 		</rule>
+	</rule>
+
+<!-- Gravel Highlihts -->
+	<rule cat="grv_mark" e="any" k="*" v="*" zoom-max="20" zoom-min="13">
+		<rule e="any" k="highway" v="footway|bridleway|byway|pedestrian">
+			<rule e="way" k="surface" v="gravel|fine_gravel|pebblestone">
+				<line stroke="#5A5552" stroke-width="1.5" stroke-dasharray="5,10" stroke-linecap="butt" />
+				<line stroke="#78746D" stroke-width="1.0" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="surface" v="compacted">
+				<line stroke="#5C3A27" stroke-width="1.5" stroke-dasharray="5,10" stroke-linecap="butt" />
+				<line stroke="#78746D" stroke-width="1.0" stroke-linecap="butt" />
+			</rule>
+		</rule>
+		<rule e="any" k="highway" v="path|tertiary|secondary|primary|tertiary_link|secondary_link|primary_link|construction|road|living_street|ford">
+			<rule e="way" k="surface" v="gravel|fine_gravel|pebblestone">
+				<line stroke="#5A5552" stroke-width="2.0" stroke-dasharray="5,10" stroke-linecap="butt" />
+				<line stroke="#78746D" stroke-width="1.2" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="surface" v="compacted">
+				<line stroke="#5C3A27" stroke-width="2.0" stroke-dasharray="5,10" stroke-linecap="butt" />
+				<line stroke="#78746D" stroke-width="1.2" stroke-linecap="butt" />
+			</rule>
+		</rule>
+		<rule e="any" k="highway" v="track|cycleway|service|residential|unclassified">
+			<rule e="way" k="surface" v="gravel|fine_gravel|pebblestone">
+				<line stroke="#5A5552" stroke-width="2.5" stroke-dasharray="5,5" stroke-linecap="butt" />
+				<line stroke="#78746D" stroke-width="1.5" stroke-linecap="butt" />
+			</rule>
+			<rule e="way" k="surface" v="compacted">
+				<line stroke="#5C3A27" stroke-width="2.5" stroke-dasharray="5,10" stroke-linecap="butt" />
+				<line stroke="#78746D" stroke-width="1.5" stroke-linecap="butt" />
+			</rule>
+		</rule>
+	</rule>
+	<rule cat="grv_mark" e="any"  k="surface" v="gravel|fine_gravel" zoom-max="12" zoom-min="8">
+				<line stroke="#f05A5552" stroke-width="2.0" stroke-linecap="round" />
+	</rule>
+	<rule cat="grv_mark" e="any"  k="surface" v="compacted" zoom-max="12" zoom-min="8">
+				<line stroke="#f05C3A27" stroke-width="2.0" stroke-linecap="round" />
 	</rule>
 
 <!-- turning circle casing -->
