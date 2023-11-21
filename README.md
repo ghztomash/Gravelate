@@ -4,11 +4,20 @@ Based on Elevate originally by [Tobias Kuehn](http://www.eartrumpet.net/contact/
 Inspired by the [Pizza Gravel](https://www.instagram.com/pizzagravel) community.
 
 # Features
-* Adds layer for emphasized gravel paths (marking `gravel`, `fine_gravel`, `compacted` and `pebble` surfaces), allowing for easily spotting surfaces when scouting and planning routes.
-* Adds layer for track grades (color coded from grade 2 to grade 5), to distinguish for cruising forests paths and gnarly trails.
-* Combines cycling and mountain bike profiles together with layers.
-* Adds Public transport network from City layer for easy spotting bailout points.
-* Adds road access layer (to de-clutter the view when navigating).
+* Adds layer for emphasized gravel paths (marking `gravel`, `fine_gravel`, `compacted` and `pebble` [surfaces](https://wiki.openstreetmap.org/wiki/Key:surface)), allowing to easily spot surfaces when scouting and planning routes.
+![Emphasized gravel paths](/assets/marked_gravel.png)
+
+* Adds layer for track grades (color coded from grade 2 to grade 5), to distinguish between cruising paths and gnarly trails.(unfortunately `smoothness`` key is not parsed by OAM)
+![Marked track grades](/assets/track_grades.png)
+
+* Adds Public transport network from City layer to easily spot bailout points.
+![Train and gravel network](/assets/train_gravel_network.png)
+
+* Combines cycling and mountain bike profiles together.
+![Mountain bike tracks](/assets/mtb_tracks.png)
+
+* Can hide road access layer (to de-clutter the view when navigating).
+![Road access](/assets/road_access.png)
 
 # Installation
 Download latest release form [github](https://github.com/ghztomash/Gravelate/releases/latest).
