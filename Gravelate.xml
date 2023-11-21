@@ -141,24 +141,21 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="c_s_routes" />
 	</layer>
 	<layer id="elv-grv_mtb" enabled="false">
-		<name lang="de" value="[R] Betonte camping" />
-		<name lang="en" value="[R] MTB mode" />
-		<name lang="es" value="[R] Camping resaltadas" />
-		<name lang="fr" value="[R] Camping soulignés" />
-		<name lang="it" value="[R] Camping accentuati" />
+		<name lang="en" value="[R] MTB routes" />
 		<cat id="mtb" />
+		<cat id="mtb_routes" />
 	</layer>
 	<layer id="elv-grv_trackgrade" enabled="true">
-		<name lang="en" value="[R] Mark Track Grades" />
+		<name lang="en" value="[W] Mark track grades" />
 		<cat id="grv_trackgrade" />
 	</layer>
 
 	<layer id="elv-grv_mark" enabled="true">
-		<name lang="en" value="[R] Emphasized gravel" />
+		<name lang="en" value="[W] Emphasized gravel" />
 		<cat id="grv_mark" />
 	</layer>
 	<layer id="elv-grv_access" enabled="true">
-		<name lang="en" value="[R] Show Road Access" />
+		<name lang="en" value="[W] Show road access" />
 		<cat id="grv_access" />
 	</layer>
 
@@ -909,7 +906,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<overlay id="elv-c_routes" />
 		<overlay id="elv-c_s_routes" />
 		<overlay id="elv-mtbs_tracks" />
-		<overlay id="elv-mtb_routes" />
+		<!-- <overlay id="elv-mtb_routes" /> -->
 		<overlay id="elv-road_surfaces-m" />
 		<overlay id="elv-paved_emph-b" />
 		<overlay id="elv-mtb_sac_T1" />
