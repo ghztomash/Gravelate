@@ -7,7 +7,7 @@ Inspired by the [Pizza Gravel](https://www.instagram.com/pizzagravel) community.
 * Adds layer for emphasized gravel paths (marking `gravel`, `fine_gravel`, `compacted` and `pebble` [surfaces](https://wiki.openstreetmap.org/wiki/Key:surface)), allowing to easily spot surfaces when scouting and planning routes.
 ![Emphasized gravel paths](/assets/marked_gravel.png)
 
-* Adds layer for track grades (color coded from grade 2 to grade 5), to distinguish between cruising paths and gnarly trails.(unfortunately `smoothness`` key is not parsed by OAM)
+* Adds layer for track [grades](https://wiki.openstreetmap.org/wiki/Key:tracktype) (color coded from grade 2 to grade 5), to better distinguish between cruising paths and gnarly trails. Unfortunately `smoothness` key is not parsed by OAM as it would have been a much better metric.
 ![Marked track grades](/assets/track_grades.png)
 
 * Adds Public transport network from City layer to easily spot bailout points.
